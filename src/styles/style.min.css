@@ -1,0 +1,64 @@
+.iconbg{
+
+    color:red!important;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+
+}
+.iconbg:hover{
+
+    font-size: 26px!important;
+    
+}
+.checkbg{
+    color: blue!important;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+
+}
+.checkbg:hover{
+    font-size: 26px!important;
+}
+.checkbgg{
+    color:green!important;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+
+}
+.checkbgg:hover{
+    font-size: 26px!important;
+
+}
+body{
+    background-image: url('../images/Paris-Eiffel-Tower.jpg');
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgdiv{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(26, 9, 9);
+    background: rgba(2, 0, 36, 0.562);
+background: linear-gradient(90deg, rgba(2, 0, 36, 0.692) 0%, rgba(9,9,121,0.692) 35%, rgba(0,212,255,0.692) 100%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.ultag{
+        text-decoration: none;
+        border-width: 0px;
+        height: 400px;
+        overflow-y: scroll;
+
+}
+.listitem{
+    color: white!important;
+    text-shadow: 2px 2px 5px rgb(26, 9, 9);
+    background: rgba(2, 0, 36, 0.562)!important;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.692) 0%, rgba(9,9,121,0.692) 35%, rgba(0,212,255,0.692) 100%)!important;
+    /* border-radius: 5px!important; */
+    border-width: 0px;
+}
+.footerbg{
+    
+    color: white;
+    text-shadow: 2px 2px 5px rgb(26, 9, 9);
+
+}
