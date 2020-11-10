@@ -207,7 +207,7 @@ let[tododata,setTododata] = useState<Tododataa>()
                         return(
                         <li key={key} className="list-group-item list-group-item-action d-flex justify-content-between listitem">
                             <span>{value.data.text}</span>
-                            <span>{value.data.check ? (<i className="far fa-check-square mr-2 btn checkbgg"
+                            <span>{value.data.check ? (<i className="far fa-check-square btn checkbgg"
                                     data-toggle="tooltip" data-placement="top" title="UnCheck This Todo"
                                     onClick={()=>{handle_Check(value.data.text,!value.data.check,value.ref["@ref"].id)}}></i>):
                                 (<i className="far fa-square  btn checkbg " data-toggle="tooltip"
