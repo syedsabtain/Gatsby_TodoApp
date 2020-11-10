@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@netlify/build": "^5.2.1",
     "apollo-server-lambda": "^2.19.0",
     "faunadb": "^3.0.1",
     "graphql": "^15.4.0"

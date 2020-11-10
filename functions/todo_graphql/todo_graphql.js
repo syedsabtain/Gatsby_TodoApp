@@ -1,7 +1,7 @@
 const dotenv = require('dotenv')
 dotenv.config()
 
-const {ApolloError,gql, ApolloServer} = require('apollo-server-lambda')
+const {gql, ApolloServer} = require('apollo-server-lambda')
 const faunadb = require('faunadb')
 const q = faunadb.query
 
